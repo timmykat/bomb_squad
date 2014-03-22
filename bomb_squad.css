@@ -1,0 +1,100 @@
+/* Prelude */
+body {
+  background-image: url(assets/hurt-locker.jpg);
+  background-repeat: no-repeat;
+  background-size: 110% ;
+  height: 100%;
+}
+.container { text-align: center }
+h1.title {
+  margin: 10px 20%;
+  background-color: #c00;
+  color: #eee;
+  padding: 20px 40px;
+  box-shadow: 3px 3px 10px #999;
+  border-radius: 10px;
+  border: solid 1px #999;
+}
+.panel {
+  background-color: transparent;
+  box-shadow: none;
+}
+#instructions {
+  color: black; 
+  width: 50%; 
+  margin: 0 auto; 
+  text-align: left; 
+  padding: 30px; 
+  border: solid 1px #666; 
+  background-color: #ccc; 
+  opacity: 0.6; 
+  box-shadow: 3px 3px  10px #999;
+  border-radius: 5px; 
+}
+
+/* Results */
+.modal {
+  top: 75px;
+}
+.modal h1 {
+  color: #c00;
+  text-shadow: 1px 1px 1px #999;
+  text-align: center;
+}
+#result img {
+  display: inline-block;
+  margin-top: 10px;
+  border: solid 1px #666;
+  box-shadow: 3px 3px  10px #999;
+}
+
+/* Game and stats CSS */
+#game { width: 80%; margin: 0 auto; }
+#stats {text-align: left; width: 50%; margin: 0 auto; }
+#stats .time {
+  display: inline-block;
+  text-align: right;
+  color: #0C0;
+  padding: 3px 10px;
+  background-color: #222;
+  border: solid 2px #999;
+  width: 3em;
+}
+#stats .flag img { width: 30px; height: 30px; }
+
+/* Game board CSS */
+#gameboard { text-align: center; display: none; }
+table { 
+  border: solid 3px #999;
+  margin: 30px auto;
+  box-shadow: 3px 3px 10px #999;
+  background-color: transparent;
+}
+td { 
+  width: 0px; 
+  height: 0px; 
+  vertical-align: middle; 
+  text-align: center; 
+  cursor: pointer; 
+  background-color: #C00;
+  margin: 2px;
+  border-radius: 5px;
+  border: solid 1px #eee;
+}
+td:hover {
+  background-color: #900; 
+}
+td.show-bomb { 
+  background-image: url(assets/fat_man.gif);
+  background-repeat: no-repeat;
+  background-size: contain; 
+}
+td.flagged {
+  background-image: url(assets/flag.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+td.revealed { background-color: #333; color: white; }
+td.loser {
+  border: solid 4px #c00; 
+}
