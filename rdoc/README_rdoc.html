@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>File: README.rdoc [BombSquad]</title>
+
+  <link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet" />
+
+  <script src="./js/jquery.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript"
+    charset="utf-8"></script>
+</head>
+
+<body class="file">
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="./README_rdoc.html">README.rdoc</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class Index
+          <span class="search-toggle"><img src="./images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="./BombSquad.html">BombSquad</a></li>
+        
+          <li><a href="./BombSquad/Engine.html">BombSquad::Engine</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    
+<p>![words are images logo](app/assets/images/shovel_logo_w100.png)</p>
+
+<p>By [words are images](<a
+href="http://wordsareimages.com">wordsareimages.com</a>)</p>
+
+<p># Bomb Squad</p>
+
+<p>Bomb Squad is a fun little exercise, based on Microsoft’s Minesweeper (with
+a slightly fresher look). It is written as a rails engine, so for it to
+work *you’ll need to add the following to your routes.rb file*:</p>
+
+<p>“`ruby mount <a href="BombSquad/Engine.html">BombSquad::Engine</a>, at:
+“&lt;mount point&gt;”`</p>
+
+<p>I use “/bomb_squad” as a mount point. I like to add it as part of the
+development group. :-)</p>
+
+<p>## Technical Details</p>
+
+<p>This is a pretty simple app. It just allows you to attach a little
+game/distraction/time-water to any rails application. Because there aren’t
+enough distractions out there.</p>
+<dl class="rdoc-list"><dt>Ruby version</dt>
+<dd>
+<p>This was written using v. 1.9.3, but it should work on other versions
+without a problem; the complexity     is in the Javascript.</p>
+</dd><dt>Rails version</dt>
+<dd>
+<p>This was written under Rails 4, but it should work under Rails 3, too.</p>
+</dd><dt>Dependencies</dt>
+<dd>
+<p>This uses <tt>haml</tt>, <tt>sass-rails</tt>, and <tt>rspec</tt> for test.
+Test have only been written for the rails code and not the Javascript.</p>
+</dd></dl>
+
+<p>### How It Works</p>
+
+<p>This app is dead simple. It just provides a controller which renders the
+game page. The game page is self-contained, using no layout. It pulls
+bootstrap in from CDN for styling and functionality. I haven’t tested how
+well it works for smaller devices - expect no miracles.</p>
+
+<p>![words are images](app/assets/images/shovel_logo_w100.png)</p>
+
+<h1>end</h1>
+
+  </div>
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,21 @@
+Processing by BombSquad::GameController#play as HTML
+Completed 500 Internal Server Error in 10ms
+Processing by BombSquad::GameController#play as HTML
+Completed 500 Internal Server Error in 9ms
+Processing by BombSquad::GameController#play as HTML
+Completed 500 Internal Server Error in 8ms
+Processing by BombSquad::GameController#play as HTML
+Completed 500 Internal Server Error in 9ms
+Processing by BombSquad::GameController#play as HTML
+Completed 500 Internal Server Error in 9ms
+Processing by BombSquad::GameController#play as HTML
+Completed 500 Internal Server Error in 8ms
+Processing by BombSquad::GameController#play as HTML
+  Rendered /Volumes/Delahaye/tim/Development/gems/bomb_squad/app/views/bomb_squad/game/play.html.haml (0.2ms)
+Completed 200 OK in 7ms (Views: 6.7ms)
+Processing by BombSquad::GameController#play as HTML
+  Rendered /Volumes/Delahaye/tim/Development/gems/bomb_squad/app/views/bomb_squad/game/play.html.haml (0.2ms)
+Completed 200 OK in 7ms (Views: 6.4ms)
+Processing by BombSquad::GameController#play as HTML
+  Rendered /Volumes/Delahaye/tim/Development/gems/bomb_squad/app/views/bomb_squad/game/play.html.haml (0.2ms)
+Completed 200 OK in 6ms (Views: 5.9ms)

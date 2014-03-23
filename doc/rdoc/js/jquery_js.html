@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>jquery.js - RDoc Documentation</title>
+
+<link href="../../fonts.css" rel="stylesheet">
+<link href="../../rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../";
+</script>
+
+<script src="../../js/jquery.js"></script>
+<script src="../../js/navigation.js"></script>
+<script src="../../js/search_index.js"></script>
+<script src="../../js/search.js"></script>
+<script src="../../js/searcher.js"></script>
+<script src="../../js/darkfish.js"></script>
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../../table_of_contents.html#pages">Pages</a>
+    <a href="../../table_of_contents.html#classes">Classes</a>
+    <a href="../../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../Gemfile.html">Gemfile</a>
+  
+    <li><a href="../../Gemfile_lock.html">Gemfile.lock</a>
+  
+    <li><a href="../../README_md.html">README</a>
+  
+    <li><a href="../../Rakefile.html">Rakefile</a>
+  
+    <li><a href="../../app/assets/stylesheets/bomb_squad_css_scss.html">bomb_squad.css.scss</a>
+  
+    <li><a href="../../app/views/bomb_squad/game/play_html_haml.html">play.html.haml</a>
+  
+    <li><a href="../../bomb_squad_gemspec.html">bomb_squad.gemspec</a>
+  
+    <li><a href="../../doc/README_md_html.html">README_md.html</a>
+  
+    <li><a href="../../doc/README_rdoc_html.html">README_rdoc.html</a>
+  
+    <li><a href="../../doc/fonts_css.html">fonts.css</a>
+  
+    <li><a href="../../doc/index_html.html">index.html</a>
+  
+    <li><a href="../../doc/js/darkfish_js.html">darkfish.js</a>
+  
+    <li><a href="../../doc/js/jquery_js.html">jquery.js</a>
+  
+    <li><a href="../../doc/js/navigation_js.html">navigation.js</a>
+  
+    <li><a href="../../doc/js/search_js.html">search.js</a>
+  
+    <li><a href="../../doc/js/search_index_js.html">search_index.js</a>
+  
+    <li><a href="../../doc/js/searcher_js.html">searcher.js</a>
+  
+    <li><a href="../../doc/rdoc_css.html">rdoc.css</a>
+  
+    <li><a href="../../doc/table_of_contents_html.html">table_of_contents.html</a>
+  
+    <li><a href="../../rdoc/BombSquad_html.html">BombSquad.html</a>
+  
+    <li><a href="../../rdoc/BombSquad/Engine_html.html">Engine.html</a>
+  
+    <li><a href="../../rdoc/README_rdoc_html.html">README_rdoc.html</a>
+  
+    <li><a href="../../rdoc/index_html.html">index.html</a>
+  
+    <li><a href="../../rdoc/js/darkfish_js.html">darkfish.js</a>
+  
+    <li><a href="../../rdoc/js/jquery_js.html">jquery.js</a>
+  
+    <li><a href="../../rdoc/js/quicksearch_js.html">quicksearch.js</a>
+  
+    <li><a href="../../rdoc/js/thickbox-compressed_js.html">thickbox-compressed.js</a>
+  
+    <li><a href="../../rdoc/lib/bomb_squad/engine_rb_html.html">engine_rb.html</a>
+  
+    <li><a href="../../rdoc/lib/bomb_squad/version_rb_html.html">version_rb.html</a>
+  
+    <li><a href="../../rdoc/lib/bomb_squad_rb_html.html">bomb_squad_rb.html</a>
+  
+    <li><a href="../../rdoc/rdoc_css.html">rdoc.css</a>
+  
+    <li><a href="../../spec/dummy/README_rdoc.html">README</a>
+  
+    <li><a href="../../spec/dummy/Rakefile.html">Rakefile</a>
+  
+    <li><a href="../../spec/dummy/app/assets/javascripts/application_js.html">application.js</a>
+  
+    <li><a href="../../spec/dummy/app/assets/stylesheets/application_css.html">application.css</a>
+  
+    <li><a href="../../spec/dummy/config_ru.html">config.ru</a>
+  
+    <li><a href="../../spec/dummy/log/test_log.html">test.log</a>
+  
+    <li><a href="../../spec/dummy/public/404_html.html">404.html</a>
+  
+    <li><a href="../../spec/dummy/public/422_html.html">422.html</a>
+  
+    <li><a href="../../spec/dummy/public/500_html.html">500.html</a>
+  
+    <li><a href="../../spec/dummy/public/favicon_ico.html">favicon.ico</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page rdoc/js/jquery.js">
+
+<pre>jQuery 1.2.6 - New Wave Javascript
+
+Copyright (c) 2008 John Resig (jquery.com)
+Dual licensed under the MIT (MIT-LICENSE.txt)
+and GPL (GPL-LICENSE.txt) licenses.
+
+$Date: 2008-09-25 09:50:52 -0700 (Thu, 25 Sep 2008) $
+$Rev: 38 $</pre>
+
+<p>(function(){var _jQuery=window.jQuery,_$=window.$;var
+jQuery=window.jQuery=window.$=function(selector,context){return new
+jQuery.fn.init(selector,context);};var <a
+href="^<">quickExpr=/^</a>*(&lt;(.|<a href=“^>”>s)+>)</a>*$|^#(<a
+href=“.”>w+)$/,isSimple=/^.[^:#</a>*$/,undefined;jQuery.fn=jQuery.prototype={init:function(selector,context){selector=selector||document;if(selector.nodeType){<a
+href="0">this</a>=selector;this.length=1;return this;}if(typeof
+selector==“string”){var <a
+href="1">match=quickExpr.exec(selector);if(match&&(match</a>||!context)){<a
+href="1">if(match</a>)<a
+href="1">selector=jQuery.clean([match</a>],context);else{var <a
+href="3">elem=document.getElementById(match</a>);if(elem){<a
+href="3">if(elem.id!=match</a>)return jQuery().find(selector);return
+jQuery(elem);}selector=[];}}else return
+jQuery(context).find(selector);}else if(jQuery.isFunction(selector))return
+<a
+href="jQuery.fn.ready?"ready":"load"">jQuery(document)</a>(selector);return
+this.setArray(jQuery.makeArray(selector));},jquery:“1.2.6”,size:function(){return
+this.length;},length:0,get:function(num){return <a
+href="num">num==undefined?jQuery.makeArray(this):this</a>;},pushStack:function(elems){var
+ret=jQuery(elems);ret.prevObject=this;return
+ret;},setArray:function(elems){this.length=0;Array.prototype.push.apply(this,elems);return
+this;},each:function(callback,args){return
+jQuery.each(this,callback,args);},index:function(elem){var ret=-1;return <a
+href="0">jQuery.inArray(elem&&elem.jquery?elem</a>:elem,this);},attr:function(name,value,type){var
+options=name;if(name.constructor==String)if(value===undefined)return <a
+href="0">this</a>&amp;&amp;<a href="type||"attr"">jQuery</a>(<a
+href="0">this</a>,name);else{options={};<a
+href="name">options</a>=value;}return this.each(function(i){for(name in <a
+href="name">options)jQuery.attr(type?this.style:this,name,jQuery.prop(this,options</a>,type,i,name));});},css:function(key,value){if((key==‘width’||key==‘height’)&amp;&amp;parseFloat(value)&lt;0)value=undefined;return
+this.attr(key,value,“curCSS”);},text:function(text){if(typeof
+text!=“object”&amp;&amp;text!=null)return <a
+href="0">this.empty().append((this</a>&amp;&amp;<a
+href="0">this</a>.ownerDocument||document).createTextNode(text));var
+ret=“”;jQuery.each(text||this,function(){jQuery.each(this.childNodes,function(){<a
+href="this">if(this.nodeType!=8)ret+=this.nodeType!=1?this.nodeValue:jQuery.fn.text(</a>);});});return
+ret;},wrapAll:function(html){<a href="0">if(this</a>)<a
+href="0">jQuery(html,this</a>.<a
+href="0">ownerDocument).clone().insertBefore(this</a>).map(function(){var
+elem=this;while(elem.firstChild)elem=elem.firstChild;return
+elem;}).append(this);return this;},wrapInner:function(html){return
+this.each(function(){jQuery(this).contents().wrapAll(html);});},wrap:function(html){return
+this.each(function(){jQuery(this).wrapAll(html);});},append:function(){return
+this.domManip(arguments,true,false,function(elem){if(this.nodeType==1)this.appendChild(elem);});},prepend:function(){return
+this.domManip(arguments,true,true,function(elem){if(this.nodeType==1)this.insertBefore(elem,this.firstChild);});},before:function(){return
+this.domManip(arguments,false,false,function(elem){this.parentNode.insertBefore(elem,this);});},after:function(){return
+this.domManip(arguments,false,true,function(elem){this.parentNode.insertBefore(elem,this.nextSibling);});},end:function(){return
+this.prevObject||jQuery([]);},find:function(selector){var
+elems=jQuery.map(this,function(elem){return
+jQuery.find(selector,elem);});return <a href="^+>“>this.pushStack(/</a>
+[^+&gt;]/.test(selector)||selector.indexOf(”..“)&gt;-1?jQuery.unique(elems):elems);},clone:function(events){var
+ret=this.map(function(){if(jQuery.browser.msie&amp;&amp;!jQuery.isXMLDoc(this)){var
+clone=this.cloneNode(true),container=document.createElement(”div“);container.appendChild(clone);return
+<a href="container.innerHTML">jQuery.clean(</a>)[0];}else return
+this.cloneNode(true);});var
+clone=ret.find(”*“).andSelf().each(function(){<a
+href="expando">if(this</a>!=<a
+href="expando">undefined)this</a>=null;});if(events===true)this.find(”*“).andSelf().each(function(i){if(this.nodeType==3)return;var
+events=jQuery.data(this,”events“);for(var type in events)for(var handler in
+<a href="type">events</a>)<a href="i">jQuery.event.add(clone</a>,<a
+href="type">type,events</a>[<a
+href="type">handler],events</a>[handler].data);});return
+ret;},filter:function(selector){return
+this.pushStack(jQuery.isFunction(selector)&amp;&amp;jQuery.grep(this,function(elem,i){return
+selector.call(elem,i);})||jQuery.multiFilter(selector,this));},not:function(selector){if(selector.constructor==String)if(isSimple.test(selector))return
+this.pushStack(jQuery.multiFilter(selector,this,true));else
+selector=jQuery.multiFilter(selector,this);var <a
+href="selector.length-1">isArrayLike=selector.length&&selector</a>!==undefined&amp;&amp;!selector.nodeType;return
+this.filter(function(){return
+isArrayLike?jQuery.inArray(this,selector)&lt;0:this!=selector;});},add:function(selector){return
+this.pushStack(jQuery.unique(jQuery.merge(this.get(),typeof
+selector==‘string’?jQuery(selector):jQuery.makeArray(selector))));},is:function(selector){return!!selector&amp;&amp;jQuery.multiFilter(selector,this).length&gt;0;},hasClass:function(selector){return
+this.is(”.“+selector);},val:function(value){if(value==undefined){if(this.length){var
+<a href="0">elem=this</a>;if(jQuery.nodeName(elem,”select“)){var
+index=elem.selectedIndex,values=[],options=elem.options,one=elem.type==”select-one“;if(index&lt;0)return
+null;for(var i=one?index:0,max=one?index+1:options.length;i&lt;max;i++){var
+<a
+href="i">option=options</a>;if(option.selected){value=jQuery.browser.msie&amp;&amp;!option.attributes.value.specified?option.text:option.value;if(one)return
+value;values.push(value);}}return values;}else <a
+href="0">return(this</a>.value||”“).replace(/r/g,”“);}return
+undefined;}if(value.constructor==Number)value+=”;return
+this.each(function(){if(this.nodeType!=1)return;if(value.constructor==Array&amp;&amp;/radio|checkbox/.test(this.type))this.checked=(jQuery.inArray(this.value,value)&gt;=0||jQuery.inArray(this.name,value)&gt;=0);else
+if(jQuery.nodeName(this,”select“)){var
+values=jQuery.makeArray(value);jQuery(”option“,this).each(function(){this.selected=(jQuery.inArray(this.value,values)&gt;=0||jQuery.inArray(this.text,values)&gt;=0);});if(!values.length)this.selectedIndex=-1;}else
+this.value=value;});},html:function(value){return <a
+href="0">value==undefined?(this</a>?<a
+href="0">this</a>.innerHTML:null):this.empty().append(value);},replaceWith:function(value){return
+this.after(value).remove();},eq:function(i){return
+this.slice(i,i+1);},slice:function(){return
+this.pushStack(Array.prototype.slice.apply(this,arguments));},map:function(callback){return
+this.pushStack(jQuery.map(this,function(elem,i){return
+callback.call(elem,i,elem);}));},andSelf:function(){return
+this.add(this.prevObject);},data:function(key,value){var <a
+href="1">parts=key.split(”.“);parts</a>=<a href="1">parts</a>?”.“+<a
+href="1">parts</a>:”“;if(value===undefined){var <a
+href="1">data=this.triggerHandler(”getData“+parts</a>+”!“,[<a
+href="0">parts</a>]);<a
+href="0">if(data===undefined&&this.length)data=jQuery.data(this</a>,key);return
+<a href="1">data===undefined&&parts</a>?<a
+href="0">this.data(parts</a>):data;}else return <a
+href="1">this.trigger(”setData“+parts</a>+”!“,[<a
+href="0">parts</a>,value]).each(function(){jQuery.data(this,key,value);});},removeData:function(key){return
+this.each(function(){jQuery.removeData(this,key);});},domManip:function(args,table,reverse,callback){var
+clone=this.length&gt;1,elems;return
+this.each(function(){if(!elems){elems=jQuery.clean(args,this.ownerDocument);if(reverse)elems.reverse();}var
+<a
+href="0">obj=this;if(table&&jQuery.nodeName(this,”table“)&&jQuery.nodeName(elems</a>,”<a
+href="0">tr“))obj=this.getElementsByTagName(”tbody“)</a>||this.appendChild(this.ownerDocument.createElement(”tbody“));var
+scripts=jQuery([]);jQuery.each(elems,function(){var <a
+href="0">elem=clone?jQuery(this).clone(true)</a>:this;if(jQuery.nodeName(elem,”script“))scripts=scripts.add(elem);else{if(elem.nodeType==1)scripts=scripts.add(jQuery(”script“,elem).remove());callback.call(obj,elem);}});scripts.each(evalScript);});}};jQuery.fn.init.prototype=jQuery.fn;function
+evalScript(i,elem){if(elem.src)jQuery.ajax({url:elem.src,async:false,dataType:”script“});else
+jQuery.globalEval(elem.text||elem.textContent||elem.innerHTML||”“);if(elem.parentNode)elem.parentNode.removeChild(elem);}function
+now(){return+new Date;}jQuery.extend=jQuery.fn.extend=function(){var <a
+href="0">target=arguments</a>||{},i=1,length=arguments.length,deep=false,options;if(target.constructor==Boolean){<a
+href="1">deep=target;target=arguments</a>||{};i=2;}if(typeof
+target!=”object“&amp;&amp;typeof
+target!=”function“)target={};if(length==i){target=this;–i;}<a
+href="i">for(;i<length;i++)if((options=arguments</a>)!=null)for(var name in
+options){var <a href="name">src=target</a>,<a
+href="name">copy=options</a>;if(target===copy)continue;if(deep&amp;&amp;copy&amp;&amp;typeof
+<a
+href="name">copy==”object“&&!copy.nodeType)target</a>=jQuery.extend(deep,src||(copy.length!=null?[]:{}),copy);else
+<a href="name">if(copy!==undefined)target</a>=copy;}return target;};var
+expando=”jQuery“+now(),uuid=0,windowData={},exclude=/z-?index|font-?weight|opacity|zoom|line-?height/i,defaultView=document.defaultView||{};jQuery.extend({noConflict:function(deep){window.$=_$;if(deep)window.jQuery=_jQuery;return
+jQuery;},isFunction:function(fn){return!!fn&amp;&amp;typeof <a
+href="">fn!=”string“&&!fn.nodeName&&fn.constructor!=Array&&/^[s</a>?function/.test(fn+”“);},isXMLDoc:function(elem){return
+elem.documentElement&amp;&amp;!elem.body||elem.tagName&amp;&amp;elem.ownerDocument&amp;&amp;!elem.ownerDocument.body;},globalEval:function(data){data=jQuery.trim(data);if(data){var
+<a
+href="0">head=document.getElementsByTagName(”head“)</a>||document.documentElement,script=document.createElement(”script“);script.type=”text/javascript“;if(jQuery.browser.msie)script.text=data;else
+script.appendChild(document.createTextNode(data));head.insertBefore(script,head.firstChild);head.removeChild(script);}},nodeName:function(elem,name){return
+elem.nodeName&amp;&amp;elem.nodeName.toUpperCase()==name.toUpperCase();},cache:{},data:function(elem,name,data){elem=elem==window?windowData:elem;var
+<a href="expando">id=elem</a>;<a href="expando">if(!id)id=elem</a>=++<a
+href="id">uuid;if(name&&!jQuery.cache</a>)<a
+href="id">jQuery.cache</a>={};<a
+href="id">if(data!==undefined)jQuery.cache</a>[name]=data;return <a
+href="id">name?jQuery.cache</a>[name]:id;},removeData:function(elem,name){elem=elem==window?windowData:elem;var
+<a href="expando">id=elem</a>;if(name){<a
+href="id">if(jQuery.cache</a>){delete <a
+href="id">jQuery.cache</a>[name];name=”“;for(name in <a
+href="id">jQuery.cache</a>)break;if(!name)jQuery.removeData(elem);}}else{try{delete
+<a
+href="expando">elem</a>;}catch(e){if(elem.removeAttribute)elem.removeAttribute(expando);}delete
+<a href="id">jQuery.cache</a>;}},each:function(object,callback,args){var
+name,i=0,length=object.length;if(args){if(length==undefined){for(name in <a
+href="name">object)if(callback.apply(object</a>,args)===false)break;}else
+<a
+href="i++">for(;i<length;)if(callback.apply(object</a>,args)===false)break;}else{if(length==undefined){for(name
+in <a href="name">object)if(callback.call(object</a>,<a
+href="name">name,object</a>)===false)break;}else for(var <a
+href="0">value=object</a>;<a
+href="++i">i<length&&callback.call(value,i,value)!==false;value=object</a>){}}return
+object;},prop:function(elem,value,type,i,name){if(jQuery.isFunction(value))value=value.call(elem,i);return
+value&amp;&amp;value.constructor==Number&amp;&amp;type==”curCSS“&amp;&amp;!exclude.test(name)?value+”px“:value;},className:{add:function(elem,classNames){jQuery.each((classNames||”“).split(/s+/),function(i,className){if(elem.nodeType==1&amp;&amp;!jQuery.className.has(elem.className,className))elem.className+=(elem.className?”
+“:”“)+className;});},remove:function(elem,classNames){if(elem.nodeType==1)elem.className=classNames!=undefined?jQuery.grep(elem.className.split(/s+/),function(className){return!jQuery.className.has(classNames,className);}).join(”
+“):”“;},has:function(elem,className){return
+jQuery.inArray(className,(elem.className||elem).toString().split(/s+/))&gt;-1;}},swap:function(elem,options,callback){var
+old={};for(var name in options){<a href="name">old</a>=<a
+href="name">elem.style</a>;<a href="name">elem.style</a>=<a
+href="name">options</a>;}callback.call(elem);for(var name in <a
+href="name">options)elem.style</a>=<a
+href="name">old</a>;},css:function(elem,name,force){if(name==”width“||name==”height“){var
+val,props={position:”absolute“,visibility:”hidden“,display:”block“},<a
+href=""Left","Right"">which=name==”width“?</a>:[”Top“,”Bottom“];function
+getWH(){val=name==”width“?elem.offsetWidth:elem.offsetHeight;var
+padding=0,border=0;jQuery.each(which,function(){padding+=parseFloat(jQuery.curCSS(elem,”padding“+this,true))||0;border+=parseFloat(jQuery.curCSS(elem,”border“<code>this</code>”Width“,true))||0;});val-=Math.round(padding+border);}if(jQuery(elem).is(”:visible“))getWH();else
+jQuery.swap(elem,props,getWH);return Math.max(0,val);}return
+jQuery.curCSS(elem,name,force);},curCSS:function(elem,name,force){var
+ret,style=elem.style;function color(elem){if(!jQuery.browser.safari)return
+false;var
+ret=defaultView.getComputedStyle(elem,null);return!ret||ret.getPropertyValue(”color“)==”“;}if(name==”opacity“&amp;&amp;jQuery.browser.msie){ret=jQuery.attr(style,”opacity“);return
+ret==”“?”1“:ret;}if(jQuery.browser.opera&amp;&amp;name==”display“){var
+save=style.outline;style.outline=”0 solid black“;style.outline=save;}<a
+href="name">if(name.match(/float/i))name=styleFloat;if(!force&&style&&style</a>)<a
+href="name">ret=style</a>;else if(defaultView.getComputedStyle){<a
+href="A-Z">if(name.match(/float/i))name=”float“;name=name.replace(/(</a>)/g,”-$1“).toLowerCase();var
+computedStyle=defaultView.getComputedStyle(elem,null);if(computedStyle&amp;&amp;!color(elem))ret=computedStyle.getPropertyValue(name);else{var
+<a href="">swap=[],stack=</a>,<a
+href="i">a=elem,i=0;for(;a&&color(a);a=a.parentNode)stack.unshift(a);for(;i<stack.length;i++)if(color(stack</a>)){<a
+href="i">swap</a>=<a href="i">stack</a>.<a
+href="i">style.display;stack</a>.style.display=”block“;}<a
+href="stack.length-1">ret=name==”display“&&swap</a>!=<a
+href="i">null?”none“:(computedStyle&&computedStyle.getPropertyValue(name))||”“;for(i=0;i<swap.length;i++)if(swap</a>!=<a
+href="i">null)stack</a>.<a
+href="i">style.display=swap</a>;}if(name==”opacity“&amp;&amp;ret==”“)ret=”1“;}else
+if(elem.currentStyle){var
+camelCase=name.replace(/-(w)/g,function(all,letter){return
+letter.toUpperCase();});<a href="name">ret=elem.currentStyle</a>||<a
+href="camelCase">elem.currentStyle</a>;if(!/^d+(px)?$/i.test(ret)&amp;&amp;/^d/.test(ret)){var
+left=style.left,rsLeft=elem.runtimeStyle.left;elem.runtimeStyle.left=elem.currentStyle.left;style.left=ret||0;ret=style.pixelLeft+”px“;style.left=left;elem.runtimeStyle.left=rsLeft;}}return
+ret;},clean:function(elems,context){var
+ret=[];context=context||document;if(typeof <a
+href="0">context.createElement==‘undefined’)context=context.ownerDocument||context</a>&amp;&amp;<a
+href="0">context</a>.ownerDocument||document;jQuery.each(elems,function(i,elem){if(!elem)return;if(elem.constructor==Number)elem+=”;if(typeof
+elem==”string“){<a
+href="^>”>elem=elem.replace(/(<(\w+)</a>*?)/&gt;/g,function(all,front,tag){return
+tag.match(/^(abbr|br|col|img|input|link|meta|param|hr|area|embed)$/i)?all:front+“&gt;&lt;/”<code>tag</code>“&gt;”;});var
+tags=jQuery.trim(elem).toLowerCase(),div=context.createElement(“div”);var
+wrap=!tags.indexOf(“&lt;opt”)&amp;&amp;[1,“&lt;select <a
+href="1,"<fieldset>”,“</fieldset>”“>multiple=‘multiple’>”,“</select>”]||!tags.indexOf(“<leg")&&</a>||<a
+href="1,"<table>”,“</table>”“>tags.match(/^<(thead|tbody|tfoot|colg|cap)/)&&</a>||!<a
+href="2,"<table><tbody>”,“</tbody></table>”“>tags.indexOf(”<tr")&&</a>||(!<a
+href="3,"<table><tbody><tr>“,”</tr></tbody></table>“”>tags.indexOf(“<td")||!tags.indexOf("<th"))&&</a>||!<a
+href="2,"<table><tbody></tbody><colgroup>”,“</colgroup></table>”“>tags.indexOf(”<col")&&</a>||<a
+href="1,"div<div>“,”</div>“”>jQuery.browser.msie&&</a>||[<a
+href="1">0,“”,“”];div.innerHTML=wrap</a>+<a href="2">elem+wrap</a>;<a
+href="0">while(wrap</a>–)div=div.lastChild;if(jQuery.browser.msie){var <a
+href="1">tbody=!tags.indexOf(“<table")&&tags.indexOf("<tbody")<0?div.firstChild&&div.firstChild.childNodes:wrap</a>==”&lt;table&gt;“&amp;&amp;tags.indexOf(”&lt;tbody“)&lt;0?div.childNodes:[];for(var
+<a href="j">j=tbody.length-1;j>=0;–j)if(jQuery.nodeName(tbody</a>,”<a
+href="j">tbody“)&&!tbody</a>.<a href="j">childNodes.length)tbody</a>.<a
+href="j">parentNode.removeChild(tbody</a>);if(/^s/.test(elem))div.insertBefore(context.createTextNode(elem.match(/^s
+)[0]),div.firstChild);}elem=jQuery.makeArray(div.childNodes);}<a
+href="0">if(elem.length===0&&(!jQuery.nodeName(elem,”form“)&&!jQuery.nodeName(elem,”select“)))return;if(elem</a>==undefined||jQuery.nodeName(elem,”form“)||elem.options)ret.push(elem);else
+ret=jQuery.merge(ret,elem);});return
+ret;},attr:function(elem,name,value){if(!elem||elem.nodeType==3||elem.nodeType==8)return
+undefined;var <a
+href="name">notxml=!jQuery.isXMLDoc(elem),set=value!==undefined,msie=jQuery.browser.msie;name=notxml&&jQuery.props</a>||name;if(elem.tagName){var
+special=/href|src|style/.test(name);if(name==”selected“&amp;&amp;jQuery.browser.safari)elem.parentNode.selectedIndex;if(name
+in
+elem&amp;&amp;notxml&amp;&amp;!special){if(set){if(name==”type“&amp;&amp;jQuery.nodeName(elem,”input“)&amp;&amp;elem.parentNode)throw”type
+property can’t be <a
+href="name">changed“;elem</a>=value;}if(jQuery.nodeName(elem,”form“)&amp;&amp;elem.getAttributeNode(name))return
+elem.getAttributeNode(name).nodeValue;return <a
+href="name">elem</a>;}if(msie&amp;&amp;notxml&amp;&amp;name==”style“)return
+jQuery.attr(elem.style,”cssText“,value);if(set)elem.setAttribute(name,”“+value);var
+attr=msie&amp;&amp;notxml&amp;&amp;special?elem.getAttribute(name,2):elem.getAttribute(name);return
+attr===null?undefined:attr;}if(msie&amp;&amp;name==”opacity“){if(set){<a
+href="^)">elem.zoom=1;elem.filter=(elem.filter||”“).replace(/alpha(</a>*)/,”“)+(parseInt(value)+”==”NaN“?”“:”alpha(opacity=“+value*100+”)“);}return
+<a
+href="^)">elem.filter&&elem.filter.indexOf(”opacity=“)>=0?(parseFloat(elem.filter.match(/opacity=(</a>*)/)[1])/100)+”:”“;}<a
+href="a-z">name=name.replace(/-(</a>)/ig,function(all,letter){return
+letter.toUpperCase();});<a href="name">if(set)elem</a>=value;return <a
+href="name">elem</a>;},trim:function(text){return(text||”“).replace(/^s+|s+$/g,”“);},makeArray:function(array){var
+ret=[];if(array!=null){var <a
+href="0">i=array.length;if(i==null||array.split||array.setInterval||array.call)ret</a>=array;else
+<a href="--i">while(i)ret</a>=<a href="i">array</a>;}return
+ret;},inArray:function(elem,array){for(var <a
+href="i">i=0,length=array.length;i<length;i++)if(array</a>===elem)return
+i;return-1;},merge:function(first,second){var
+i=0,elem,pos=first.length;if(jQuery.browser.msie){<a
+href="i++">while(elem=second</a>)<a
+href="pos++">if(elem.nodeType!=8)first</a>=elem;}else <a
+href="i++">while(elem=second</a>)<a href="pos++">first</a>=elem;return
+first;},unique:function(array){var ret=[],done={};try{for(var
+i=0,length=array.length;i&lt;length;i++){var <a
+href="i">id=jQuery.data(array</a>);<a href="id">if(!done</a>){<a
+href="id">done</a>=<a
+href="i">true;ret.push(array</a>);}}}catch(e){ret=array;}return
+ret;},grep:function(elems,callback,inv){var ret=[];for(var <a
+href="i">i=0,length=elems.length;i<length;i++)if(!inv!=!callback(elems</a>,<a
+href="i">i))ret.push(elems</a>);return
+ret;},map:function(elems,callback){var ret=[];for(var
+i=0,length=elems.length;i&lt;length;i++){var <a
+href="i">value=callback(elems</a>,<a
+href="ret.length">i);if(value!=null)ret</a>=value;}return
+ret.concat.apply([],ret);}});var
+userAgent=navigator.userAgent.toLowerCase();jQuery.browser={version:(userAgent.match(/.+(?:rv|it|ra|ie)[/:
+]([<a
+href=”1“>d.]+)/)||[])</a>,safari:/webkit/.test(userAgent),opera:/opera/.test(userAgent),msie:/msie/.test(userAgent)&amp;&amp;!/opera/.test(userAgent),mozilla:/mozilla/.test(userAgent)&amp;&amp;!/(compatible|webkit)/.test(userAgent)};var
+styleFloat=jQuery.browser.msie?”styleFloat“:”cssFloat“;jQuery.extend({boxModel:!jQuery.browser.msie||document.compatMode==”CSS1Compat“,props:{”for“:”htmlFor“,”class“:”className“,”float“:styleFloat,cssFloat:styleFloat,styleFloat:styleFloat,readonly:”readOnly“,maxlength:”maxLength“,cellspacing:”cellSpacing“}});jQuery.each({parent:function(elem){return
+elem.parentNode;},parents:function(elem){return
+jQuery.dir(elem,”parentNode“);},next:function(elem){return
+jQuery.nth(elem,2,”nextSibling“);},prev:function(elem){return
+jQuery.nth(elem,2,”previousSibling“);},nextAll:function(elem){return
+jQuery.dir(elem,”nextSibling“);},prevAll:function(elem){return
+jQuery.dir(elem,”previousSibling“);},siblings:function(elem){return
+jQuery.sibling(elem.parentNode.firstChild,elem);},children:function(elem){return
+jQuery.sibling(elem.firstChild);},contents:function(elem){return
+jQuery.nodeName(elem,”iframe“)?elem.contentDocument||elem.contentWindow.document:jQuery.makeArray(elem.childNodes);}},function(name,fn){<a
+href="name">jQuery.fn</a>=function(selector){var
+ret=jQuery.map(this,fn);if(selector&amp;&amp;typeof
+selector==”string“)ret=jQuery.multiFilter(selector,ret);return
+this.pushStack(jQuery.unique(ret));};});jQuery.each({appendTo:”append“,prependTo:”prepend“,insertBefore:”before“,insertAfter:”after“,replaceAll:”replaceWith“},function(name,original){<a
+href="name">jQuery.fn</a>=function(){var args=arguments;return
+this.each(function(){for(var <a
+href="i">i=0,length=args.length;i<length;i++)jQuery(args</a>)[original](this);});};});jQuery.each({removeAttr:function(name){jQuery.attr(this,name,”“);if(this.nodeType==1)this.removeAttribute(name);},addClass:function(classNames){jQuery.className.add(this,classNames);},removeClass:function(classNames){jQuery.className.remove(this,classNames);},toggleClass:function(classNames){<a
+href="jQuery.className.has(this,classNames)?"remove":"add"">jQuery.className</a>(this,classNames);},remove:function(selector){<a
+href="this">if(!selector||jQuery.filter(selector,</a>).r.length){jQuery(”*“,this).add(this).each(function(){jQuery.event.remove(this);jQuery.removeData(this);});if(this.parentNode)this.parentNode.removeChild(this);}},empty:function(){jQuery(”&gt;*“,this).remove();while(this.firstChild)this.removeChild(this.firstChild);}},function(name,fn){<a
+href="name">jQuery.fn</a>=function(){return this.each(fn,arguments);};});<a
+href=""Height","Width"">jQuery.each(</a>,function(i,name){var <a
+href="type">type=name.toLowerCase();jQuery.fn</a>=function(size){return <a
+href="0">this</a>==<a
+href=""client"+name">window?jQuery.browser.opera&&document.body</a>||<a
+href=""inner"+name">jQuery.browser.safari&&window</a>||<a
+href=""client"+name">document.compatMode==”CSS1Compat“&&document.documentElement</a>||<a
+href=""client"+name">document.body</a>:<a href="0">this</a>==<a
+href=""scroll"+name">document?Math.max(Math.max(document.body</a>,<a
+href=""scroll"+name">document.documentElement</a>),<a
+href=""offset"+name">Math.max(document.body</a>,<a
+href=""offset"+name">document.documentElement</a>)):<a
+href="0">size==undefined?(this.length?jQuery.css(this</a>,type):null):this.css(type,size.constructor==String?size:size+”px“);};});function
+num(elem,prop){return <a href="0">elem</a>&amp;&amp;<a
+href="0">parseInt(jQuery.curCSS(elem</a>,prop,true),10)||0;}var <a
+href="\\w*_-">chars=jQuery.browser.safari&&parseInt(jQuery.browser.version)<417?"(?:</a>|\\.)”:“(?:[\wu0128-uFFFF*_-]|\\.)”,quickChild=new
+RegExp(“^&gt;\s*(”<code>chars</code>“+)”),quickID=new
+RegExp(“^(”<code>chars</code>“+)(#)(”<code>chars</code>“+)”),quickClass=new
+<a
+href="#.">RegExp(“^(</a>?)(”<code>chars</code>“*)”);jQuery.extend({expr:{“”:function(a,i,m){return
+<a href="2">m</a>==“*”||<a
+href="2">jQuery.nodeName(a,m</a>);},“#”:function(a,i,m){return <a
+href="2">a.getAttribute(“id”)==m</a>;},“:”:{lt:function(a,i,m){return <a
+href="3">i<m</a>-0;},gt:function(a,i,m){return <a
+href="3">i>m</a>-0;},nth:function(a,i,m){return <a
+href="3">m</a>-0==i;},eq:function(a,i,m){return <a
+href="3">m</a>-0==i;},first:function(a,i){return
+i==0;},last:function(a,i,m,r){return
+i==r.length-1;},even:function(a,i){return i%2==0;},odd:function(a,i){return
+i%2;},“first-child”:function(a){return <a
+href="0">a.parentNode.getElementsByTagName(“*”)</a>==a;},“last-child”:function(a){return
+jQuery.nth(a.parentNode.lastChild,1,“previousSibling”)==a;},“only-child”:function(a){return!jQuery.nth(a.parentNode.lastChild,2,“previousSibling”);},parent:function(a){return
+a.firstChild;},empty:function(a){return!a.firstChild;},contains:function(a,i,m){<a
+href="3">return(a.textContent||a.innerText||jQuery(a).text()||“”).indexOf(m</a>)&gt;=0;},visible:function(a){return“hidden”!=a.type&amp;&amp;jQuery.css(a,“display”)!=“none”&amp;&amp;jQuery.css(a,“visibility”)!=“hidden”;},hidden:function(a){return“hidden”==a.type||jQuery.css(a,“display”)==“none”||jQuery.css(a,“visibility”)==“hidden”;},enabled:function(a){return!a.disabled;},disabled:function(a){return
+a.disabled;},checked:function(a){return
+a.checked;},selected:function(a){return
+a.selected||jQuery.attr(a,“selected”);},text:function(a){return“text”==a.type;},radio:function(a){return“radio”==a.type;},checkbox:function(a){return“checkbox”==a.type;},file:function(a){return“file”==a.type;},password:function(a){return“password”==a.type;},submit:function(a){return“submit”==a.type;},image:function(a){return“image”==a.type;},reset:function(a){return“reset”==a.type;},button:function(a){return“button”==a.type||jQuery.nodeName(a,“button”);},input:function(a){return/input|select|textarea|button/i.test(a.nodeName);},has:function(a,i,m){return
+<a
+href="3">jQuery.find(m</a>,a).length;},header:function(a){return/hd/i.test(a.nodeName);},animated:function(a){return
+jQuery.grep(jQuery.timers,function(fn){return
+a==fn.elem;}).length;}}},parse:[/^([) *@?([w-]+) *([!*$^~=]*) *(‘?“?)(.*?)4
+*]/,/^(:)([<a href=”^(“>w-]+)(”?’?(.*?((.*?))?</a>*?)“?‘?)/,new <a
+href=":.#">RegExp(”^(</a>*)(“<code>chars</code>”+)“)],multiFilter:function(expr,elems,not){var
+old,cur=[];while(expr&amp;&amp;expr!=old){old=expr;var
+f=jQuery.filter(expr,elems,not);expr=f.t.replace(/^s*,s*/,”“);cur=not?elems=f.r:jQuery.merge(cur,f.r);}return
+cur;},find:function(t,context){if(typeof <a
+href="t">t!=”string“)return</a>;if(context&amp;&amp;context.nodeType!=1&amp;&amp;context.nodeType!=9)return[];context=context||document;var
+<a
+href="context">ret=</a>,done=[],last,nodeName;while(t&amp;&amp;last!=t){var
+r=[];last=t;t=jQuery.trim(t);var
+foundToken=false,re=quickChild,m=re.exec(t);if(m){<a
+href="1">nodeName=m</a>.toUpperCase();for(var <a
+href="i">i=0;ret</a>;i++)for(var <a
+href="i">c=ret</a>.firstChild;c;c=c.nextSibling)if(c.nodeType==1&amp;&amp;(nodeName==”*“||c.nodeName.toUpperCase()==nodeName))r.push©;ret=r;t=t.replace(re,”“);if(t.indexOf(”
+“)==0)continue;foundToken=true;}else{<a
+href=">+~”>re=/^(</a>)s*(w*)/i;if((m=re.exec(t))!=null){r=[];var
+merge={};<a href="2">nodeName=m</a>.<a
+href="1">toUpperCase();m=m</a>;for(var j=0,rl=ret.length;j&lt;rl;j++){var
+<a href="j">n=m==“~”||m==“+”?ret</a>.<a
+href="j">nextSibling:ret</a>.firstChild;for(;n;n=n.nextSibling)if(n.nodeType==1){var
+<a
+href="id">id=jQuery.data(n);if(m==“~”&&merge</a>)break;if(!nodeName||n.nodeName.toUpperCase()==nodeName){<a
+href="id">if(m==“~”)merge</a>=true;r.push(n);}if(m==“+”)break;}}ret=r;t=jQuery.trim(t.replace(re,“”));foundToken=true;}}if(t&amp;&amp;!foundToken){if(!t.indexOf(“,”)){<a
+href="0">if(context==ret</a>)<a
+href="context">ret.shift();done=jQuery.merge(done,ret);r=ret=</a>;t=“
+”+t.substr(1,t.length);}else{var re2=quickID;var m=re2.exec(t);if(m){<a
+href="2">m=[0,m</a>,<a href="3">m</a>,<a
+href="1">m</a>];}else{re2=quickClass;m=re2.exec(t);}<a href="2">m</a>=<a
+href="2">m</a>.replace(/\/g,“”);var <a href="ret.length-1">elem=ret</a>;<a
+href="1">if(m</a>==“#”&amp;&amp;elem&amp;&amp;elem.getElementById&amp;&amp;!jQuery.isXMLDoc(elem)){var
+<a
+href="2">oid=elem.getElementById(m</a>);if((jQuery.browser.msie||jQuery.browser.opera)&amp;&amp;oid&amp;&amp;typeof
+<a href="2">oid.id==“string”&&oid.id!=m</a>)<a
+href="2">oid=jQuery(’[@id=“‘+m</a>+’”]‘,<a href="0">elem)</a>;<a
+href="3">ret=r=oid&&(!m</a>||<a
+href="3">jQuery.nodeName(oid,m</a>))?[oid]:[];}else{for(var <a
+href="i">i=0;ret</a>;i++){var <a href="1">tag=m</a>==“#”&amp;&amp;<a
+href="3">m</a>?<a href="3">m</a>:<a href="1">m</a>!=“”||<a
+href="0">m</a>==“”?“*”:<a href="2">m</a>;<a
+href="i">if(tag==“*”&&ret</a>.<a
+href="i">nodeName.toLowerCase()==“object”)tag=“param”;r=jQuery.merge(r,ret</a>.getElementsByTagName(tag));}<a
+href="1">if(m</a>==“.”)<a href="2">r=jQuery.classFilter(r,m</a>);<a
+href="1">if(m</a>==“#”){var tmp=[];for(var <a href="i">i=0;r</a>;<a
+href="i">i++)if(r</a>.<a href="2">getAttribute(“id”)==m</a>){<a
+href="i">tmp=[r</a>];break;}r=tmp;}ret=r;}t=t.replace(re2,“”);}}if(t){var
+val=jQuery.filter(t,r);ret=r=val.r;t=jQuery.trim(val.t);}}<a
+href="0">if(t)ret=[];if(ret&&context==ret</a>)ret.shift();done=jQuery.merge(done,ret);return
+done;},classFilter:function(r,m,not){m=“ ”<code>m</code>“ ”;var
+tmp=[];for(var <a href="i">i=0;r</a>;i++){var pass=(“ ”+<a
+href="i">r</a>.className+“ ”).<a
+href="i">indexOf(m)>=0;if(!not&&pass||not&&!pass)tmp.push(r</a>);}return
+tmp;},filter:function(t,r,not){var
+last;while(t&amp;&amp;t!=last){last=t;var p=jQuery.parse,m;for(var <a
+href="i">i=0;p</a>;i++){<a href="i">m=p</a>.exec(t);if(m){<a
+href="0">t=t.substring(m</a>.<a href="2">length);m</a>=<a
+href="2">m</a>.replace(/\/g,“”);break;}}<a
+href="1">if(!m)break;if(m</a>==“:”&amp;&amp;<a href="2">m</a>==“<a
+href="3">not”)r=isSimple.test(m</a>)?<a href="3">jQuery.filter(m</a>,<a
+href="3">r,true).r:jQuery®.not(m</a>);else <a href="1">if(m</a>==“.”)<a
+href="2">r=jQuery.classFilter(r,m</a>,not);else <a
+href="1">if(m</a>==“[”){var <a href="3">tmp=[],type=m</a>;for(var
+i=0,rl=r.length;i&lt;rl;i++){var <a href="i">a=r</a>,<a
+href="2">z=a[jQuery.props[m</a>]||<a href="2">m</a>];<a
+href="2">if(z==null||/href|src|selected/.test(m</a>))<a
+href="2">z=jQuery.attr(a,m</a>)||”;<a
+href="5">if((type==“”&&!!z||type==“=”&&z==m</a>||<a
+href="5">type==“!=”&&z!=m</a>||<a
+href="5">type==“^=”&&z&&!z.indexOf(m</a>)||<a
+href="5">type==“$=”&&z.substr(z.length-m</a>.<a
+href="5">length)==m</a>||(<a
+href="5">type==“*=”||type==“~=”)&&z.indexOf(m</a>)&gt;=0)^not)tmp.push(a);}r=tmp;}else
+<a href="1">if(m</a>==“:”&amp;&amp;<a href="2">m</a>==“nth-child”){var
+merge={},<a href="3">tmp=[],test=/(-?)(d*)n((?:+|-)?d*)/.exec(m</a>==“<a
+href="3">even”&&“2n”||m</a>==“<a
+href="3">odd”&&“2n+1”||!/D/.test(m</a>)&amp;&amp;“<a
+href="3">0n+”+m</a>||<a href="3">m</a>),<a href="1">first=(test</a>+(<a
+href="2">test</a>||<a href="3">1))-0,last=test</a>-0;for(var
+i=0,rl=r.length;i&lt;rl;i++){var <a href="i">node=r</a>,<a
+href="id">parentNode=node.parentNode,id=jQuery.data(parentNode);if(!merge</a>){var
+c=1;for(var <a
+href="id">n=parentNode.firstChild;n;n=n.nextSibling)if(n.nodeType==1)n.nodeIndex=c++;merge</a>=true;}var
+add=false;if(first==0){if(node.nodeIndex==last)add=true;}else
+if((node.nodeIndex-last)%first==0&amp;&amp;(node.nodeIndex-last)/first&gt;=0)add=true;if(add^not)tmp.push(node);}r=tmp;}else{var
+<a href="1">fn=jQuery.expr[m</a>];if(typeof <a
+href="2">fn==“object”)fn=fn[m</a>];if(typeof
+fn==“string”)fn=eval(“false||function(a,i){return
+”<code>fn</code>“;}”);r=jQuery.grep(r,function(elem,i){return
+fn(elem,i,m,r);},not);}}return{r:r,t:t};},dir:function(elem,dir){var <a
+href="dir">matched=[],cur=elem</a>;while(cur&amp;&amp;cur!=document){<a
+href="dir">if(cur.nodeType==1)matched.push(cur);cur=cur</a>;}return
+matched;},nth:function(cur,result,dir,elem){result=result||1;var <a
+href="dir">num=0;for(;cur;cur=cur</a>)if(cur.nodeType==1&amp;&amp;++num==result)break;return
+cur;},sibling:function(n,elem){var
+r=[];for(;n;n=n.nextSibling){if(n.nodeType==1&amp;&amp;n!=elem)r.push(n);}return
+r;}});jQuery.event={add:function(elem,types,handler,data){if(elem.nodeType==3||elem.nodeType==8)return;if(jQuery.browser.msie&amp;&amp;elem.setInterval)elem=window;if(!handler.guid)handler.guid=this.guid++;if(data!=undefined){var
+fn=handler;handler=this.proxy(fn,function(){return
+fn.apply(this,arguments);});handler.data=data;}var
+events=jQuery.data(elem,“events”)||jQuery.data(elem,“events”,{}),handle=jQuery.data(elem,“handle”)||jQuery.data(elem,“handle”,function(){if(typeof
+jQuery!=“undefined”&amp;&amp;!jQuery.event.triggered)return
+jQuery.event.handle.apply(arguments.callee.elem,arguments);});handle.elem=elem;jQuery.each(types.split(/s+/),function(index,type){var
+<a href="0">parts=type.split(“.”);type=parts</a>;<a
+href="1">handler.type=parts</a>;var <a
+href="type">handlers=events</a>;if(!handlers){<a
+href="type">handlers=events</a>={};<a
+href="type">if(!jQuery.event.special</a>||<a
+href="type">jQuery.event.special</a>.setup.call(elem)===false){if(elem.addEventListener)elem.addEventListener(type,handle,false);else
+if(elem.attachEvent)elem.attachEvent(“on”+type,handle);}}<a
+href="handler.guid">handlers</a>=<a
+href="type">handler;jQuery.event.global</a>=true;});elem=null;},guid:1,global:{},remove:function(elem,types,handler){if(elem.nodeType==3||elem.nodeType==8)return;var
+events=jQuery.data(elem,“events”),ret,index;if(events){if(types==undefined||(typeof
+types==“string”&amp;&amp;types.charAt(0)==“.”))for(var type in
+events)this.remove(elem,type+(types||“”));else{if(types.type){handler=types.handler;types=types.type;}jQuery.each(types.split(/s+/),function(index,type){var
+<a href="0">parts=type.split(“.”);type=parts</a>;<a
+href="type">if(events</a>){if(handler)delete <a
+href="type">events</a>[handler.guid];else for(handler in <a
+href="type">events</a>)<a href="1">if(!parts</a>||<a
+href="type">events</a>[<a href="1">handler].type==parts</a>)delete <a
+href="type">events</a>[handler];for(ret in <a
+href="type">events</a>)break;if(!ret){<a
+href="type">if(!jQuery.event.special</a>||<a
+href="type">jQuery.event.special</a>.teardown.call(elem)===false){if(elem.removeEventListener)elem.removeEventListener(type,jQuery.data(elem,“handle”),false);else
+if(elem.detachEvent)elem.detachEvent(“on”+type,jQuery.data(elem,“handle”));}ret=null;delete
+<a href="type">events</a>;}}});}for(ret in events)break;if(!ret){var
+handle=jQuery.data(elem,“handle”);if(handle)handle.elem=null;jQuery.removeData(elem,“events”);jQuery.removeData(elem,“handle”);}}},trigger:function(type,data,elem,donative,extra){data=jQuery.makeArray(data);if(type.indexOf(“!”)&gt;=0){type=type.slice(0,-1);var
+exclusive=true;}if(!elem){<a href="type">if(this.global</a>)<a
+href="window,document">jQuery(“*”).add(</a>).trigger(type,data);}else{if(elem.nodeType==3||elem.nodeType==8)return
+undefined;var <a href="type">val,ret,fn=jQuery.isFunction(elem</a>||<a
+href="0">null),event=!data</a>||!<a
+href="0">data</a>.preventDefault;if(event){data.unshift({type:type,target:elem,preventDefault:function(){},stopPropagation:function(){},timeStamp:now()});<a
+href="0">data</a>[expando]=true;}<a href="0">data</a>.<a
+href="0">type=type;if(exclusive)data</a>.exclusive=true;var <a
+href=""on"+type">handle=jQuery.data(elem,“handle”);if(handle)val=handle.apply(elem,data);if((!fn||(jQuery.nodeName(elem,’a’)&&type==“click”))&&elem</a>&amp;&amp;<a
+href=""on"+type">elem</a>.apply(elem,data)===false)val=false;if(event)data.shift();if(extra&amp;&amp;jQuery.isFunction(extra)){ret=extra.apply(elem,val==null?data:data.concat(val));if(ret!==undefined)val=ret;}if(fn&amp;&amp;donative!==false&amp;&amp;val!==false&amp;&amp;!(jQuery.nodeName(elem,‘a’)&amp;&amp;type==“click”)){this.triggered=true;try{<a
+href="type">elem</a>();}catch(e){}}this.triggered=false;}return
+val;},handle:function(event){var <a
+href="0">val,ret,namespace,all,handlers;event=arguments</a>=<a
+href="0">jQuery.event.fix(event||window.event);namespace=event.type.split(“.”);event.type=namespace</a>;<a
+href="1">namespace=namespace</a>;all=!namespace&amp;&amp;!event.exclusive;handlers=(jQuery.data(this,“events”)||{})[event.type];for(var
+j in handlers){var <a
+href="j">handler=handlers</a>;if(all||handler.type==namespace){event.handler=handler;event.data=handler.data;ret=handler.apply(this,arguments);if(val!==false)val=ret;if(ret===false){event.preventDefault();event.stopPropagation();}}}return
+val;},fix:function(event){<a href="expando">if(event</a>==true)return
+event;var originalEvent=event;event={originalEvent:originalEvent};var
+props=“altKey attrChange attrName bubbles button cancelable charCode
+clientX clientY ctrlKey currentTarget data detail eventPhase fromElement
+handler keyCode metaKey newValue originalTarget pageX pageY prevValue
+relatedNode relatedTarget screenX screenY shiftKey srcElement target
+timeStamp toElement type view wheelDelta which”.split(“ ”);for(var <a
+href="i">i=props.length;i;i–)event[props</a>]=<a
+href="i">originalEvent[props</a>];<a
+href="expando">event</a>=true;event.preventDefault=function(){if(originalEvent.preventDefault)originalEvent.preventDefault();originalEvent.returnValue=false;};event.stopPropagation=function(){if(originalEvent.stopPropagation)originalEvent.stopPropagation();originalEvent.cancelBubble=true;};event.timeStamp=event.timeStamp||now();if(!event.target)event.target=event.srcElement||document;if(event.target.nodeType==3)event.target=event.target.parentNode;if(!event.relatedTarget&amp;&amp;event.fromElement)event.relatedTarget=event.fromElement==event.target?event.toElement:event.fromElement;if(event.pageX==null&amp;&amp;event.clientX!=null){var
+doc=document.documentElement,body=document.body;event.pageX=event.clientX+(doc&amp;&amp;doc.scrollLeft||body&amp;&amp;body.scrollLeft||0)-(doc.clientLeft||0);event.pageY=event.clientY+(doc&amp;&amp;doc.scrollTop||body&amp;&amp;body.scrollTop||0)-(doc.clientTop||0);}if(!event.which&amp;&amp;((event.charCode||event.charCode===0)?event.charCode:event.keyCode))event.which=event.charCode||event.keyCode;if(!event.metaKey&amp;&amp;event.ctrlKey)event.metaKey=event.ctrlKey;if(!event.which&amp;&amp;event.button)event.which=(event.button&amp;1?1:(event.button&amp;2?3:(event.button&amp;4?2:0)));return
+event;},proxy:function(fn,proxy){proxy.guid=fn.guid=fn.guid||proxy.guid||this.guid++;return
+proxy;},special:{ready:{setup:function(){bindReady();return;},teardown:function(){return;}},mouseenter:{setup:function(){if(jQuery.browser.msie)return
+false;jQuery(this).bind(“mouseover”,jQuery.event.special.mouseenter.handler);return
+true;},teardown:function(){if(jQuery.browser.msie)return
+false;jQuery(this).unbind(“mouseover”,jQuery.event.special.mouseenter.handler);return
+true;},handler:function(event){if(withinElement(event,this))return
+true;event.type=“mouseenter”;return
+jQuery.event.handle.apply(this,arguments);}},mouseleave:{setup:function(){if(jQuery.browser.msie)return
+false;jQuery(this).bind(“mouseout”,jQuery.event.special.mouseleave.handler);return
+true;},teardown:function(){if(jQuery.browser.msie)return
+false;jQuery(this).unbind(“mouseout”,jQuery.event.special.mouseleave.handler);return
+true;},handler:function(event){if(withinElement(event,this))return
+true;event.type=“mouseleave”;return
+jQuery.event.handle.apply(this,arguments);}}}};jQuery.fn.extend({bind:function(type,data,fn){return
+type==“unload”?this.one(type,data,fn):this.each(function(){jQuery.event.add(this,type,fn||data,fn&amp;&amp;data);});},one:function(type,data,fn){var
+one=jQuery.event.proxy(fn||data,function(event){jQuery(this).unbind(event,one);return(fn||data).apply(this,arguments);});return
+this.each(function(){jQuery.event.add(this,type,one,fn&amp;&amp;data);});},unbind:function(type,fn){return
+this.each(function(){jQuery.event.remove(this,type,fn);});},trigger:function(type,data,fn){return
+this.each(function(){jQuery.event.trigger(type,data,this,true,fn);});},triggerHandler:function(type,data,fn){return
+<a href="0">this</a>&amp;&amp;<a
+href="0">jQuery.event.trigger(type,data,this</a>,false,fn);},toggle:function(fn){var
+<a
+href="i++">args=arguments,i=1;while(i<args.length)jQuery.event.proxy(fn,args</a>);return
+this.click(jQuery.event.proxy(fn,function(event){this.lastToggle=(this.lastToggle||0)%i;event.preventDefault();return
+<a
+href="this.lastToggle++">args</a>.apply(this,arguments)||false;}));},hover:function(fnOver,fnOut){return
+this.bind(‘mouseenter’,fnOver).bind(‘mouseleave’,fnOut);},ready:function(fn){bindReady();if(jQuery.isReady)fn.call(document,jQuery);else
+jQuery.readyList.push(function(){return fn.call(this,jQuery);});return
+this;}});jQuery.extend({isReady:false,readyList:[],ready:function(){if(!jQuery.isReady){jQuery.isReady=true;if(jQuery.readyList){jQuery.each(jQuery.readyList,function(){this.call(document);});jQuery.readyList=null;}jQuery(document).triggerHandler(“ready”);}}});var
+readyBound=false;function
+bindReady(){if(readyBound)return;readyBound=true;if(document.addEventListener&amp;&amp;!jQuery.browser.opera)document.addEventListener(“DOMContentLoaded”,jQuery.ready,false);if(jQuery.browser.msie&amp;&amp;window==top)(function(){if(jQuery.isReady)return;try{document.documentElement.doScroll(“left”);}catch(error){setTimeout(arguments.callee,0);return;}jQuery.ready();})();if(jQuery.browser.opera)document.addEventListener(“DOMContentLoaded”,function(){if(jQuery.isReady)return;for(var
+<a
+href="i">i=0;i<document.styleSheets.length;i++)if(document.styleSheets</a>.disabled){setTimeout(arguments.callee,0);return;}jQuery.ready();},false);if(jQuery.browser.safari){var
+numStyles;(function(){if(jQuery.isReady)return;if(document.readyState!=“loaded”&amp;&amp;document.readyState!=“complete”){setTimeout(arguments.callee,0);return;}if(numStyles===undefined)numStyles=jQuery(“style,
+<a
+href="rel=stylesheet">link</a>”).length;if(document.styleSheets.length!=numStyles){setTimeout(arguments.callee,0);return;}jQuery.ready();})();}jQuery.event.add(window,“load”,jQuery.ready);}jQuery.each((“blur,focus,load,resize,scroll,unload,click,dblclick,”+“mousedown,mouseup,mousemove,mouseover,mouseout,change,select,”+“submit,keydown,keypress,keyup,error”).split(“,”),function(i,name){<a
+href="name">jQuery.fn</a>=function(fn){return
+fn?this.bind(name,fn):this.trigger(name);};});var
+withinElement=function(event,elem){var
+parent=event.relatedTarget;while(parent&amp;&amp;parent!=elem)try{parent=parent.parentNode;}catch(error){parent=elem;}return
+parent==elem;};jQuery(window).bind(“unload”,function(){jQuery(“*”).add(document).unbind();});jQuery.fn.extend({_load:jQuery.fn.load,load:function(url,params,callback){if(typeof
+url!=‘string’)return this._load(url);var off=url.indexOf(“
+”);if(off&gt;=0){var
+selector=url.slice(off,url.length);url=url.slice(0,off);}callback=callback||function(){};var
+type=“GET”;if(params)if(jQuery.isFunction(params)){callback=params;params=null;}else{params=jQuery.param(params);type=“POST”;}var
+self=this;jQuery.ajax({url:url,type:type,dataType:“html”,data:params,complete:function(res,status){<a
+href="res.responseText,status,res">if(status==“success”||status==“notmodified”)self.html(selector?jQuery(“<div/>”).append(res.responseText.replace(/<script(.|\s)*?\/script>/g,“”)).find(selector):res.responseText);self.each(callback,</a>);}});return
+this;},serialize:function(){return
+jQuery.param(this.serializeArray());},serializeArray:function(){return
+this.map(function(){return
+jQuery.nodeName(this,“form”)?jQuery.makeArray(this.elements):this;}).filter(function(){return
+this.name&amp;&amp;!this.disabled&amp;&amp;(this.checked||/select|textarea/i.test(this.nodeName)||/text|hidden|password/i.test(this.type));}).map(function(i,elem){var
+val=jQuery(this).val();return
+val==null?null:val.constructor==Array?jQuery.map(val,function(val,i){return{name:elem.name,value:val};}):{name:elem.name,value:val};}).get();}});jQuery.each(“ajaxStart,ajaxStop,ajaxComplete,ajaxError,ajaxSuccess,ajaxSend”.split(“,”),function(i,o){<a
+href="o">jQuery.fn</a>=function(f){return this.bind(o,f);};});var
+jsc=now();jQuery.extend({get:function(url,data,callback,type){if(jQuery.isFunction(data)){callback=data;data=null;}return
+jQuery.ajax({type:“GET”,url:url,data:data,success:callback,dataType:type});},getScript:function(url,callback){return
+jQuery.get(url,null,callback,“script”);},getJSON:function(url,data,callback){return
+jQuery.get(url,data,callback,“json”);},post:function(url,data,callback,type){if(jQuery.isFunction(data)){callback=data;data={};}return
+jQuery.ajax({type:“POST”,url:url,data:data,success:callback,dataType:type});},ajaxSetup:function(settings){jQuery.extend(jQuery.ajaxSettings,settings);},ajaxSettings:{url:location.href,global:true,type:“GET”,timeout:0,contentType:“application/x-www-form-urlencoded”,processData:true,async:true,data:null,username:null,password:null,accepts:{xml:“application/xml,
+text/xml”,html:“text/html”,script:“text/javascript,
+application/javascript”,json:“application/json,
+text/javascript”,text:“text/plain”,_default:“* 
+”}},lastModified:{},ajax:function(s){s=jQuery.extend(true,s,jQuery.extend(true,{},jQuery.ajaxSettings,s));var
+jsonp,jsre=/=?(&amp;|$)/g,status,data,type=s.type.toUpperCase();if(s.data&amp;&amp;s.processData&amp;&amp;typeof
+s.data!=“string”)s.data=jQuery.param(s.data);if(s.dataType==“jsonp”){if(type==“GET”){if(!s.url.match(jsre))s.url+=(s.url.match(/?/)?“&amp;”:“?”)+(s.jsonp||“callback”)+“=?”;}else
+if(!s.data||!s.data.match(jsre))s.data=(s.data?s.data+“&amp;”:“”)+(s.jsonp||“callback”)+“=?”;s.dataType=“json”;}if(s.dataType==“json”&amp;&amp;(s.data&amp;&amp;s.data.match(jsre)||s.url.match(jsre))){<a
+href="jsonp">jsonp=“jsonp”jsc+;if(s.data)s.data=(s.data+“”).replace(jsre,“=”jsonp“$1”);s.url=s.url.replace(jsre,“=”jsonp“$1”);s.dataType=“script”;window</a>=function(tmp){<a
+href="jsonp">data=tmp;success();complete();window</a>=undefined;try{delete
+<a
+href="jsonp">window</a>;}catch(e){}if(head)head.removeChild(script);};}if(s.dataType==“script”&amp;&amp;s.cache==null)s.cache=false;if(s.cache===false&amp;&amp;type==“GET”){var
+ts=now();var
+ret=s.url.replace(/(?|&amp;)_=.*?(&amp;|$)/,“$1_=”<code>ts</code>“$2”);s.url=ret+((ret==s.url)?(s.url.match(/?/)?“&amp;”:“?”)+“_=”+ts:“”);}if(s.data&amp;&amp;type==“GET”){s.url+=(s.url.match(/?/)?“&amp;”:“?”)+s.data;s.data=null;}if(s.global&amp;&amp;!jQuery.active++)jQuery.event.trigger(“ajaxStart”);var
+<a href="^\/?#">remote=/^(?:w+:)?//(</a>+)/;<a
+href="1">if(s.dataType==“script”&&type==“GET”&&remote.test(s.url)&&remote.exec(s.url)</a>!=location.host){var
+<a href="0">head=document.getElementsByTagName(“head”)</a>;var
+script=document.createElement(“script”);script.src=s.url;if(s.scriptCharset)script.charset=s.scriptCharset;if(!jsonp){var
+done=false;script.onload=script.onreadystatechange=function(){if(!done&amp;&amp;(!this.readyState||this.readyState==“loaded”||this.readyState==“complete”)){done=true;success();complete();head.removeChild(script);}};}head.appendChild(script);return
+undefined;}var requestDone=false;var xhr=window.ActiveXObject?new
+ActiveXObject(“Microsoft.XMLHTTP”):new
+XMLHttpRequest();if(s.username)xhr.open(type,s.url,s.async,s.username,s.password);else
+xhr.open(type,s.url,s.async);try{<a
+href="s.url">if(s.data)xhr.setRequestHeader(“Content-Type”,s.contentType);if(s.ifModified)xhr.setRequestHeader(“If-Modified-Since”,jQuery.lastModified</a>||“Thu,
+01 Jan 1970 00:00:00 <a
+href="s.dataType">GMT”);xhr.setRequestHeader(“X-Requested-With”,“XMLHttpRequest”);xhr.setRequestHeader(“Accept”,s.dataType&&s.accepts</a>?<a
+href="s.dataType">s.accepts</a>+“,
+<strong>/</strong>”:s.accepts._default);}catch(e){}if(s.beforeSend&amp;&amp;s.beforeSend(xhr,s)===false){s.global&amp;&amp;jQuery.active–;xhr.abort();return
+false;}<a
+href="xhr,s">if(s.global)jQuery.event.trigger(“ajaxSend”,</a>);var
+onreadystatechange=function(isTimeout){if(!requestDone&amp;&amp;xhr&amp;&amp;(xhr.readyState==4||isTimeout==“timeout”)){requestDone=true;if(ival){clearInterval(ival);ival=null;}status=isTimeout==“timeout”&amp;&amp;“timeout”||!jQuery.httpSuccess(xhr)&amp;&amp;“error”||s.ifModified&amp;&amp;jQuery.httpNotModified(xhr,s.url)&amp;&amp;“notmodified”||“success”;if(status==“success”){try{data=jQuery.httpData(xhr,s.dataType,s.dataFilter);}catch(e){status=“parsererror”;}}if(status==“success”){var
+modRes;try{modRes=xhr.getResponseHeader(“Last-Modified”);}catch(e){}<a
+href="s.url">if(s.ifModified&&modRes)jQuery.lastModified</a>=modRes;if(!jsonp)success();}else
+jQuery.handleError(s,xhr,status);complete();if(s.async)xhr=null;}};if(s.async){var
+ival=setInterval(onreadystatechange,13);if(s.timeout&gt;0)setTimeout(function(){if(xhr){xhr.abort();if(!requestDone)onreadystatechange(“timeout”);}},s.timeout);}try{xhr.send(s.data);}catch(e){jQuery.handleError(s,xhr,null,e);}if(!s.async)onreadystatechange();function
+success(){<a
+href="xhr,s">if(s.success)s.success(data,status);if(s.global)jQuery.event.trigger(“ajaxSuccess”,</a>);}function
+complete(){<a
+href="xhr,s">if(s.complete)s.complete(xhr,status);if(s.global)jQuery.event.trigger(“ajaxComplete”,</a>);if(s.global&amp;&amp;!–jQuery.active)jQuery.event.trigger(“ajaxStop”);}return
+xhr;},handleError:function(s,xhr,status,e){<a
+href="xhr,s,e">if(s.error)s.error(xhr,status,e);if(s.global)jQuery.event.trigger(“ajaxError”,</a>);},active:0,httpSuccess:function(xhr){try{return!xhr.status&amp;&amp;location.protocol==“file:”||(xhr.status&gt;=200&amp;&amp;xhr.status&lt;300)||xhr.status==304||xhr.status==1223||jQuery.browser.safari&amp;&amp;xhr.status==undefined;}catch(e){}return
+false;},httpNotModified:function(xhr,url){try{var
+xhrRes=xhr.getResponseHeader(“Last-Modified”);return <a
+href="url">xhr.status==304||xhrRes==jQuery.lastModified</a>||jQuery.browser.safari&amp;&amp;xhr.status==undefined;}catch(e){}return
+false;},httpData:function(xhr,type,filter){var
+ct=xhr.getResponseHeader(“content-type”),xml=type==“xml”||!type&amp;&amp;ct&amp;&amp;ct.indexOf(“xml”)&gt;=0,data=xml?xhr.responseXML:xhr.responseText;if(xml&amp;&amp;data.documentElement.tagName==“parsererror”)throw“parsererror”;if(filter)data=filter(data,type);if(type==“script”)jQuery.globalEval(data);if(type==“json”)data=eval(“(”<code>data</code>“)”);return
+data;},param:function(a){var
+s=[];if(a.constructor==Array||a.jquery)jQuery.each(a,function(){s.push(encodeURIComponent(this.name)+“=”+encodeURIComponent(this.value));});else
+for(var j in <a href="j">a)if(a</a>&amp;&amp;<a href="j">a</a>.<a
+href="j">constructor==Array)jQuery.each(a</a>,function(){s.push(encodeURIComponent(j)+“=”+encodeURIComponent(this));});else
+<a
+href="j">s.push(encodeURIComponent(j)+“=”+encodeURIComponent(jQuery.isFunction(a</a>)?<a
+href="j">a</a>():<a href="j">a</a>));return
+s.join(“&amp;”).replace(/%20/g,“+”);}});jQuery.fn.extend({show:function(speed,callback){return
+speed?this.animate({height:“show”,width:“show”,opacity:“show”},speed,callback):this.filter(“:hidden”).each(function(){this.style.display=this.oldblock||“”;if(jQuery.css(this,“display”)==“none”){var
+elem=jQuery(“&lt;”<code>this.tagName</code>“
+/&gt;”).appendTo(“body”);this.style.display=elem.css(“display”);if(this.style.display==“none”)this.style.display=“block”;elem.remove();}}).end();},hide:function(speed,callback){return
+speed?this.animate({height:“hide”,width:“hide”,opacity:“hide”},speed,callback):this.filter(“:visible”).each(function(){this.oldblock=this.oldblock||jQuery.css(this,“display”);this.style.display=“none”;}).end();},_toggle:jQuery.fn.toggle,toggle:function(fn,fn2){return
+jQuery.isFunction(fn)&amp;&amp;jQuery.isFunction(fn2)?this._toggle.apply(this,arguments):fn?this.animate({height:“toggle”,width:“toggle”,opacity:“toggle”},fn,fn2):this.each(function(){<a
+href="jQuery(this).is(":hidden")?"show":"hide"">jQuery(this)</a>();});},slideDown:function(speed,callback){return
+this.animate({height:“show”},speed,callback);},slideUp:function(speed,callback){return
+this.animate({height:“hide”},speed,callback);},slideToggle:function(speed,callback){return
+this.animate({height:“toggle”},speed,callback);},fadeIn:function(speed,callback){return
+this.animate({opacity:“show”},speed,callback);},fadeOut:function(speed,callback){return
+this.animate({opacity:“hide”},speed,callback);},fadeTo:function(speed,to,callback){return
+this.animate({opacity:to},speed,callback);},animate:function(prop,speed,easing,callback){var
+optall=jQuery.speed(speed,easing,callback);return <a
+href="optall.queue===false?"each":"queue"">this</a>(function(){if(this.nodeType!=1)return
+false;var
+opt=jQuery.extend({},optall),p,hidden=jQuery(this).is(“:hidden”),self=this;for(p
+in prop){<a href="p">if(prop</a>==“<a
+href="p">hide”&&hidden||prop</a>==“show”&amp;&amp;!hidden)return
+opt.complete.call(this);if(p==“height”||p==“width”){opt.display=jQuery.css(this,“display”);opt.overflow=this.style.overflow;}}if(opt.overflow!=null)this.style.overflow=“hidden”;opt.curAnim=jQuery.extend({},prop);jQuery.each(prop,function(name,val){var
+e=new <a
+href="val=="toggle"?hidden?"show":"hide":val">jQuery.fx(self,opt,name);if(/toggle|show|hide/.test(val))e</a>(prop);else{var
+<a
+href="+-">parts=val.toString().match(/^(</a>=)?([d+-.]+)(.*)$/),start=e.cur(true)||0;if(parts){var
+<a href="2">end=parseFloat(parts</a>),<a
+href="3">unit=parts</a>||“px”;if(unit!=“px”){<a
+href="name">self.style</a>=(<a
+href="name">end||1)+unit;start=((end||1)/e.cur(true))*start;self.style</a>=start+unit;}<a
+href="1">if(parts</a>)<a
+href="1">end=((parts</a>==“-=”?-1:1)*end)+start;e.custom(start,end,unit);}else
+e.custom(start,val,“”);}});return
+true;});},queue:function(type,fn){if(jQuery.isFunction(type)||(type&amp;&amp;type.constructor==Array)){fn=type;type=“fx”;}if(!type||(typeof
+type==“string”&amp;&amp;!fn))return <a href="0">queue(this</a>,type);return
+this.each(function(){if(fn.constructor==Array)queue(this,type,fn);else{queue(this,type).push(fn);if(queue(this,type).length==1)fn.call(this);}});},stop:function(clearQueue,gotoEnd){var
+timers=jQuery.timers;if(clearQueue)this.queue([]);this.each(function(){for(var
+<a href="i">i=timers.length-1;i>=0;i–)if(timers</a>.elem==this){<a
+href="i">if(gotoEnd)timers</a>(true);timers.splice(i,1);}});if(!gotoEnd)this.dequeue();return
+this;}});var queue=function(elem,type,array){if(elem){type=type||“fx”;var
+q=jQuery.data(elem,type+“queue”);if(!q||array)q=jQuery.data(elem,type+“queue”,jQuery.makeArray(array));}return
+q;};jQuery.fn.dequeue=function(type){type=type||“fx”;return
+this.each(function(){var <a
+href="0">q=queue(this,type);q.shift();if(q.length)q</a>.call(this);});};jQuery.extend({speed:function(speed,easing,fn){var
+opt=speed&amp;&amp;speed.constructor==Object?speed:{complete:fn||!fn&amp;&amp;easing||jQuery.isFunction(speed)&amp;&amp;speed,duration:speed,easing:fn&amp;&amp;easing||easing&amp;&amp;easing.constructor!=Function&amp;&amp;easing};<a
+href="opt.duration">opt.duration=(opt.duration&&opt.duration.constructor==Number?opt.duration:jQuery.fx.speeds</a>)||jQuery.fx.speeds.def;opt.old=opt.complete;opt.complete=function(){if(opt.queue!==false)jQuery(this).dequeue();if(jQuery.isFunction(opt.old))opt.old.call(this);};return
+opt;},easing:{linear:function(p,n,firstNum,diff){return
+firstNum+diff*p;},swing:function(p,n,firstNum,diff){return((-Math.cos(p*Math.PI)/2)+0.5)*diff+firstNum;}},<a
+href="this.prop">timers:[],timerId:null,fx:function(elem,options,prop){this.options=options;this.elem=elem;this.prop=prop;if(!options.orig)options.orig={};}});jQuery.fx.prototype={update:function(){if(this.options.step)this.options.step.call(this.elem,this.now,this);(jQuery.fx.step</a>||jQuery.fx.step._default)(this);if(this.prop==“height”||this.prop==“width”)this.elem.style.display=“block”;},cur:function(force){<a
+href="this.prop">if(this.elem</a>!=<a
+href="this.prop">null&&this.elem.style</a>==null)return <a
+href="this.prop">this.elem</a>;var
+r=parseFloat(jQuery.css(this.elem,this.prop,force));return
+r&amp;&amp;r&gt;-10000?r:parseFloat(jQuery.curCSS(this.elem,this.prop))||0;},custom:function(from,to,unit){this.startTime=now();this.start=from;this.end=to;this.unit=unit||this.unit||“px”;this.now=this.start;this.pos=this.state=0;this.update();var
+self=this;function t(gotoEnd){return
+self.step(gotoEnd);}t.elem=this.elem;jQuery.timers.push(t);if(jQuery.timerId==null){jQuery.timerId=setInterval(function(){var
+timers=jQuery.timers;for(var <a
+href="i">i=0;i<timers.length;i++)if(!timers</a>())timers.splice(i–,1);if(!timers.length){clearInterval(jQuery.timerId);jQuery.timerId=null;}},13);}},show:function(){<a
+href="this.prop">this.options.orig</a>=<a
+href="this.prop">jQuery.attr(this.elem.style,this.prop);this.options.show=true;this.custom(0,this.cur());if(this.prop==“width”||this.prop==“height”)this.elem.style</a>=“1px”;jQuery(this.elem).show();},hide:function(){<a
+href="this.prop">this.options.orig</a>=jQuery.attr(this.elem.style,this.prop);this.options.hide=true;this.custom(this.cur(),0);},step:function(gotoEnd){var
+t=now();if(gotoEnd||t&gt;this.options.duration+this.startTime){<a
+href="this.prop">this.now=this.end;this.pos=this.state=1;this.update();this.options.curAnim</a>=true;var
+done=true;for(var i in <a
+href="i">this.options.curAnim)if(this.options.curAnim</a>!==true)done=false;if(done){if(this.options.display!=null){this.elem.style.overflow=this.options.overflow;this.elem.style.display=this.options.display;if(jQuery.css(this.elem,“display”)==“none”)this.elem.style.display=“block”;}if(this.options.hide)this.elem.style.display=“none”;if(this.options.hide||this.options.show)for(var
+p in <a
+href="p">this.options.curAnim)jQuery.attr(this.elem.style,p,this.options.orig</a>);}if(done)this.options.complete.call(this.elem);return
+false;}else{var <a
+href="this.options.easing||(jQuery.easing.swing?"swing":"linear")">n=t-this.startTime;this.state=n/this.options.duration;this.pos=jQuery.easing</a>(this.state,n,0,1,this.options.duration);this.now=this.start+((this.end-this.start)*this.pos);this.update();}return
+true;}};jQuery.extend(jQuery.fx,{speeds:{slow:600,fast:200,def:400},step:{scrollLeft:function(fx){fx.elem.scrollLeft=fx.now;},scrollTop:function(fx){fx.elem.scrollTop=fx.now;},opacity:function(fx){jQuery.attr(fx.elem.style,“opacity”,fx.now);},_default:function(fx){<a
+href="fx.prop">fx.elem.style</a>=fx.now+fx.unit;}}});jQuery.fn.offset=function(){var
+<a
+href="0">left=0,top=0,elem=this</a>,results;if(elem)with(jQuery.browser){var
+parent=elem.parentNode,offsetChild=elem,offsetParent=elem.offsetParent,doc=elem.ownerDocument,safari2=safari&amp;&amp;parseInt(version)&lt;522&amp;&amp;!/adobeair/i.test(userAgent),css=jQuery.curCSS,fixed=css(elem,“position”)==“fixed”;if(elem.getBoundingClientRect){var
+box=elem.getBoundingClientRect();add(box.left+Math.max(doc.documentElement.scrollLeft,doc.body.scrollLeft),box.top+Math.max(doc.documentElement.scrollTop,doc.body.scrollTop));add(-doc.documentElement.clientLeft,-doc.documentElement.clientTop);}else{add(elem.offsetLeft,elem.offsetTop);while(offsetParent){add(offsetParent.offsetLeft,offsetParent.offsetTop);if(mozilla&amp;&amp;!/^t(able|d|h)$/i.test(offsetParent.tagName)||safari&amp;&amp;!safari2)border(offsetParent);if(!fixed&amp;&amp;css(offsetParent,“position”)==“fixed”)fixed=true;offsetChild=/^body$/i.test(offsetParent.tagName)?offsetChild:offsetParent;offsetParent=offsetParent.offsetParent;}while(parent&amp;&amp;parent.tagName&amp;&amp;!/^body|html$/i.test(parent.tagName)){if(!/^inline|table.*$/i.test(css(parent,“display”)))add(-parent.scrollLeft,-parent.scrollTop);if(mozilla&amp;&amp;css(parent,“overflow”)!=“visible”)border(parent);parent=parent.parentNode;}if((safari2&amp;&amp;(fixed||css(offsetChild,“position”)==“absolute”))||(mozilla&amp;&amp;css(offsetChild,“position”)!=“absolute”))add(-doc.body.offsetLeft,-doc.body.offsetTop);if(fixed)add(Math.max(doc.documentElement.scrollLeft,doc.body.scrollLeft),Math.max(doc.documentElement.scrollTop,doc.body.scrollTop));}results={top:top,left:left};}function
+border(elem){add(jQuery.curCSS(elem,“borderLeftWidth”,true),jQuery.curCSS(elem,“borderTopWidth”,true));}function
+add(l,t){left+=parseInt(l,10)||0;top+=parseInt(t,10)||0;}return
+results;};jQuery.fn.extend({position:function(){var <a
+href="0">left=0,top=0,results;if(this</a>){var <a
+href="0">offsetParent=this.offsetParent(),offset=this.offset(),parentOffset=/^body|html$/i.test(offsetParent</a>.tagName)?{top:0,left:0}:offsetParent.offset();offset.top-=num(this,‘marginTop’);offset.left-=num(this,‘marginLeft’);parentOffset.top+=num(offsetParent,‘borderTopWidth’);parentOffset.left+=num(offsetParent,‘borderLeftWidth’);results={top:offset.top-parentOffset.top,left:offset.left-parentOffset.left};}return
+results;},offsetParent:function(){var <a
+href="0">offsetParent=this</a>.offsetParent;while(offsetParent&amp;&amp;(!/^body|html$/i.test(offsetParent.tagName)&amp;&amp;jQuery.css(offsetParent,‘position’)==‘static’))offsetParent=offsetParent.offsetParent;return
+jQuery(offsetParent);}});<a
+href="'Left','Top'">jQuery.each(</a>,function(i,name){var <a
+href="method">method=‘scroll’+name;jQuery.fn</a>=function(val){<a
+href="0">if(!this</a>)return;return val!=undefined?this.each(function(){<a
+href="method">this==window||this==document?window.scrollTo(!i?val:jQuery(window).scrollLeft(),i?val:jQuery(window).scrollTop()):this</a>=val;}):<a
+href="0">this</a>==<a href="0">window||this</a>==<a
+href="i?'pageYOffset':'pageXOffset'">document?self</a>||<a
+href="method">jQuery.boxModel&&document.documentElement</a>||<a
+href="method">document.body</a>:<a href="0">this</a>[method];};});<a
+href=""Height","Width"">jQuery.each(</a>,function(i,name){var <a
+href=""inner"+name">tl=i?“Left”:“Top”,br=i?“Right”:“Bottom”;jQuery.fn</a>=function(){return
+<a
+href="name.toLowerCase()">this</a>()+num(this,“padding”+tl)+num(this,“padding”+br);};<a
+href=""outer"+name">jQuery.fn</a>=function(margin){return <a
+href=""inner"+name">this</a>()+num(this,“border”<code>tl</code>“Width”)+num(this,“border”<code>br</code>“Width”)+(margin?num(this,“margin”+tl)+num(this,“margin”+br):0);};});})();</p>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://rdoc.rubyforge.org">RDoc</a> 4.1.1.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

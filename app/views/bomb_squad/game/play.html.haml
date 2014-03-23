@@ -1,0 +1,82 @@
+-##
+-# Template for the entire game page - no layout required.
+
+!!!
+%html
+  %head
+    %title Bomb Squad | Tim Kinnel, words are images
+    %script{ src: "//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js" }
+    %link{rel: "stylesheet", href: "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"}
+    %link{rel: "stylesheet", href: "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"}
+    %script{ src: "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"}
+    = stylesheet_link_tag     :bomb_squad
+    = javascript_include_tag  :bomb_squad
+    
+  %body
+    .modal#result
+      .modal-dialog
+        .modal-content
+          .modal-body
+            %button(type="button" class="close" data-dismiss="modal" aria-hidden="true") &times;
+            .message
+    .container
+      %p.credit
+        Brought to you by 
+        = link_to( image_tag("shovel_logo_w100.png", alt: 'words are images', style: 'vertical-align: text-bottom;'), 'http://wordsareimages.com', class: 'wai-logo', target: '_blank', title: 'Go to words are images site')
+      %h1.title BOMB SQUAD
+      %p.lead Test your mettle!
+      .panel
+        .panel-heading
+          .panel-title
+            %a(type='button' class='btn btn-default btn-xm' data-toggle='collapse' href= '#instructions')
+              Instructions
+              %span.glyphicon.glyphicon-collapse-down
+          #instructions.panel-collapse.collapse
+            .panel-body
+              %dt 
+                PLAY
+                %dd
+                  %ul.info
+                    %li Click a square to reveal
+                    %li Right- or ctrl-click to drop or remove a flag 
+              %dt 
+                WIN 
+                %dd
+                  %ul.info
+                    %li Flag all the bombs correctly
+                    %li Show all the square that aren't bombs
+              %dt 
+                LOSE 
+                %dd
+                  %ul.info
+                    %li Click on a bomb
+                    %li Run out of time
+      #game
+        %p.setup
+          %form{ id: 'config', role: 'form', class: 'form-inline' }
+            .form-group
+              %label Grid size:
+              %input{  class: 'form-control', type: 'text', id: 'grid-size', name: 'gridSize', value: 10, size: 2 }
+            .form-group
+              %label Number of bombs:
+              %input{  class: 'form-control', type: 'text', id: 'bombs', name: 'bombs', value: 10, size: 2 }
+            .form-group
+              %label Time limit:
+              %select{ class: 'form-control', id: 'time', name: 'time' }
+                %option{ :value => 0, :selected => 'selected' } None
+                %option{ :value => 10 } 10 sec
+                %option{ :value => 15 } 15 sec
+                %option{ :value => 30 } 30 sec
+                %option{ :value => 60 } 60 sec
+                %option{ :value => 90 } 90 sec
+                %option{ :value => 120 } 2 min
+                %option{ :value => 180 } 3 min
+            %button{ type: 'submit', id: 'rebuild', class: 'btn btn-sm btn-default' } New Game
+        
+      %hr
+      #stats
+        Timer: 
+        %span.time 0
+        Flags:
+        %span.flags
+      #gameboard
