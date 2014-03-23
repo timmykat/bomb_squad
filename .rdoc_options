@@ -5,7 +5,7 @@ rdoc_include:
 - .
 - /Volumes/Delahaye/tim/Development/gems/bomb_squad
 charset: UTF-8
-exclude: 
+exclude: [dummy, doc, rdoc]
 hyperlink_all: false
 line_numbers: false
 main_page: 

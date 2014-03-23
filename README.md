@@ -1,4 +1,5 @@
-![words are images logo](app/assets/images/shovel_logo_w100.png)
+<br>
+![words are images logo](../app/assets/images/shovel_logo_w100.png)
 
 By [words are images](http://wordsareimages.com)
 
@@ -27,6 +28,4 @@ This is a pretty simple app. It just allows you to attach a little game/distract
 ### How It Works  
 
 This app is dead simple. It just provides a controller which renders the game page. The game is written entirely in Javscript/jquery, so the game page is self-contained, using no layout. It pulls bootstrap in from CDN for styling and functionality. I haven't tested how well it works for smaller devices - expect no miracles.
-
-![words are images](app/assets/images/shovel_logo_w100.png)
 
