@@ -14,7 +14,7 @@ module BombSquad
     #
     
     def play
-      render 'play', layout: false
+      render :play, layout: false
     end
 
     

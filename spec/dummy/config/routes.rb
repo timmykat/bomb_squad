@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  mount BombSquad::Engine => "/boomb_squad"
+  mount BombSquad::Engine => "/bomb_squad"
 end
