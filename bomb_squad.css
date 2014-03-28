@@ -82,7 +82,7 @@ td {
   border: solid 1px #eee;
 }
 td:hover {
-  background-color: #900; 
+  background-color: #F33; 
 }
 td.show-bomb { 
   background-image: url(assets/fat_man.gif);
